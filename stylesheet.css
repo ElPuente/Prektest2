@@ -1,0 +1,183 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "lato", sans-serif;
+    font-weight: 500;
+    line-height: 1.8em;
+    color: #666;
+}
+/*              ==================               */
+
+
+/*      MAIN CONTENT:   IMAGES      */
+/*      MAIN CONTENT:   IMAGES      */
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5 {
+    position: relative;
+    /*opacity: 0.60;*/
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   /*background-color: beige;
+    
+    fixed = parallax
+    fixed = normal
+    */
+    background-attachment: fixed;
+}
+
+.pimg1 {
+    background-image: url('images/Books.jpg');
+    min-height: 100%;
+}
+
+.pimg2 {
+    background-image: url('images/Crayons.jpg');
+    min-height: 500px;
+}
+
+.pimg3 {
+    background-image: url('images/Writing.jpg');
+    min-height: 500px;
+}
+
+.pimg4 {
+    background-image: url('../district2/images/Dramatic.jpg');
+    min-height: 500px;
+}
+
+.pimg5 {
+    background-image: url('images/Rug.jpg');
+    min-height: 500%;
+}
+/*              ==================               */
+
+
+/*          MAIN CONTENT:   TITLES          */
+/*          MAIN CONTENT:   TITLES          */
+h1 {
+    font-size: 35px;
+    color: #74ee15;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.ptext .border {
+    background-color: #111;
+    /*color: #00001e;*/
+    color: #001eff;
+    font-weight: bold;
+}
+
+.ptext .border.trans {
+    background-color: transparent;
+}
+
+li {
+    list-style-type:none;
+}
+/*              ==================               */
+
+
+/*      MAIN CONTENT:   PAGE INFORMATION         */
+/*      MAIN CONTENT:   PAGE INFORMATION         */
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light {
+    background-color: #f4f4f4;
+    color: #736F6E;
+    height: auto;
+}
+
+.section-dark {
+    background-color: #282e34;
+    color: #C0C0C0;
+    height: auto;
+}
+
+h2 {
+    color: #736F6E;
+}
+.lightfonts {
+    color: #C0C0C0;
+}
+/*              ==================               */
+
+
+/*      MAIN CODE:  INFOMRATION     */
+/*      MAIN CODE:  INFORMATION     */
+a {
+    color: #736F6E; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+h3 {
+    color: #C0C0C0;
+    font-size: 12px;
+}
+
+.list {
+    margin-left: -40px;
+}
+
+.inst {
+    height: 118px;
+    width: 130px;
+}
+/*              ==================               */
+/*              ==================               */
+
+
+/*               media Query Code           */
+/*               media Query Code           */
+/*               media Query Code           */
+
+@media only screen and (max-width:560px){
+   * {
+        overflow:auto;
+    }
+    .ourmission {
+        font-size: 16px;
+    }
+    .ourvalues {
+        font-size: 16px;
+    }
+
+}
+
+
+@media only screen and (max-width:559px){
+    * {
+        overflow:auto;
+    }
+    .pimg2, .pimg3, .pimg4, .pimg5 {
+        background-attachment: scroll;
+        display: none !important;
+    }
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+
+
+
+
+
+
+    
