@@ -22,6 +22,7 @@
     padding-left: 50px;
 }
 .picture {
+    background-image: url('images/peck slip school.jpg');
     border: solid white 6px;
     padding:10px;
 }
