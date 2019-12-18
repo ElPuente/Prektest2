@@ -24,12 +24,12 @@
 .picture {
     border: solid white 6px;
     padding:10px;
+    background-image: url('images/Books.jpg');
 }
 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    background-image: url('images/Books.jpg');
 }
 .middle {
     background-color: #282e34;
