@@ -29,6 +29,8 @@ img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    background-image: url('images/Books.jpg');
+    min-height: 100%;
 }
 .middle {
     background-color: #282e34;
