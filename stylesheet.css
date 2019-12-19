@@ -42,7 +42,7 @@ body, html {
 }
 
 .pimg4 {
-    background-image: url('../district2/images/Dramatic.jpg');
+    background-image: url('images/Dramatic.jpg');
     min-height: 500px;
 }
 
